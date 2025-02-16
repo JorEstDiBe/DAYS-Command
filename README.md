@@ -74,8 +74,10 @@ mvn compile exec:java -Dexec.mainClass="com.mycompany.days.commandproject.DAYSCo
 
 ## Ejemplo de Ejecución
 Al ejecutar el programa, deberías ver la siguiente salida:
+(Ejecucion_command.png)
 ```
 [Ejemplo de resultado del programa]
+
 ```
 
 ---
@@ -83,7 +85,7 @@ Al ejecutar el programa, deberías ver la siguiente salida:
 ## Diagrama UML
 El siguiente diagrama muestra la estructura del patrón implementado:
 
-![Diagrama UML](uml/diagrama.png)
+![Diagrama UML](UML_command.jpg)
 
 ---
 
