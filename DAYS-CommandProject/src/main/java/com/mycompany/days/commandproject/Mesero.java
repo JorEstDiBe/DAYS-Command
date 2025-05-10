@@ -17,11 +17,13 @@ public class Mesero {
 
     public void tomarOrden(IPedido pedido) {
         pedidos.add(pedido);
-        System.out.println(Colores.AMARILLO + "[Mesero] 📝 Tomando pedido..." + Colores.RESET);
+        System.out.println(Colores.AMARILLO + "[Mesero] 📝 Tomando pedido..." 
+                + Colores.RESET);
     }
 
     public void enviarOrdenes() {
-        System.out.println(Colores.AMARILLO + "[Mesero] 🚀 Enviando pedidos a la cocina..." + Colores.RESET);
+        System.out.println(Colores.AMARILLO + "[Mesero] 🚀 Enviando pedidos a la cocina..." 
+                + Colores.RESET);
         pedidos.forEach(IPedido::ejecutar);
         pedidos.clear();
     }
